@@ -1,5 +1,6 @@
+body {}
+
 .wrapper {
-  height: 100%;
   width: 100%;
   overflow: hidden;
 }
@@ -98,6 +99,7 @@
   .nav {
     display: none;
   }
+
 
   .burger {
     visibility: visible;
@@ -223,10 +225,15 @@
 
 }
 
-@media (max-width: 364px) {
+@media (max-width: 395px) {
   .content-block-button {
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  .text-block-title,
+  .text-block-title2 {
+    font-size: 30px;
   }
 
   .content-block-button input {
