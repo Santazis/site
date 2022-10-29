@@ -229,6 +229,8 @@ body {}
   .content-block-button {
     flex-wrap: wrap;
     justify-content: center;
+    max-width: 251px;
+    margin: 0 auto;
   }
 
   .text-block-title,
